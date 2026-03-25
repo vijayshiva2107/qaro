@@ -1,0 +1,703 @@
+<!DOCTYPE html>
+<!--[if IE 8]><html class="ie8"><![endif]-->
+<!--[if IE 9]><html class="ie9"><![endif]-->
+<!--[if gt IE 8]><!--> <html lang="en-US"> <!--<![endif]-->
+
+<head>
+
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta name="viewport" content="user-scalable=yes, width=device-width, initial-scale=1.0, maximum-scale=1, minimum-scale=1">
+
+<!--[if lt IE 9]>
+	<script src="https://park.shifting-gears.com/wp-content/themes/voice/js/html5.js"></script>
+<![endif]-->
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7138853889720350" crossorigin="anonymous"></script>
+	
+    <style>
+        #wpadminbar #wp-admin-bar-p404_free_top_button .ab-icon:before {
+            content: "\f103";
+            color: red;
+            top: 2px;
+        }
+    </style>
+<meta name='robots' content='index, max-image-preview:large' />
+
+	<!-- This site is optimized with the Yoast SEO plugin v24.7 - https://yoast.com/wordpress/plugins/seo/ -->
+	<title>Shifting-Gears - India&#039;s Leading Automobile Media House</title>
+	<meta name="description" content="India&#039;s Leading Automobile Media House" />
+	<link rel="canonical" href="https://shifting-gears.com/" />
+	<link rel="next" href="https://shifting-gears.com/page/2/" />
+	<meta property="og:locale" content="en_US" />
+	<meta property="og:type" content="website" />
+	<meta property="og:title" content="Shifting-Gears" />
+	<meta property="og:description" content="India&#039;s Leading Automobile Media House" />
+	<meta property="og:url" content="https://shifting-gears.com/" />
+	<meta property="og:site_name" content="Shifting-Gears" />
+	<meta name="twitter:card" content="summary_large_image" />
+	<!-- / Yoast SEO plugin. -->
+
+
+<link rel="manifest" href="/pwa-manifest.json">
+<link rel="apple-touch-icon" sizes="512x512" href="https://park.shifting-gears.com/wp-content/plugins/pwa-for-wp/images/logo-512x512.png">
+<link rel="apple-touch-icon-precomposed" sizes="192x192" href="https://park.shifting-gears.com/wp-content/plugins/pwa-for-wp/images/logo.png">
+<link rel="amphtml" href="https://shifting-gears.com/amp/" /><meta name="generator" content="AMP for WP 1.1.3"/><link rel='dns-prefetch' href='//park.shifting-gears.com' />
+<link rel='dns-prefetch' href='//fonts.googleapis.com' />
+<link rel='dns-prefetch' href='//www.googletagmanager.com' />
+<link rel="alternate" type="application/rss+xml" title="Shifting-Gears &raquo; Feed" href="https://shifting-gears.com/feed/" />
+		<!-- This site uses the Google Analytics by MonsterInsights plugin v9.3.1 - Using Analytics tracking - https://www.monsterinsights.com/ -->
+							<script src="//www.googletagmanager.com/gtag/js?id=G-P19C5WRKNG"  data-cfasync="false" data-wpfc-render="false" type="text/javascript" async></script>
+			<script data-cfasync="false" data-wpfc-render="false" type="text/javascript">
+				var mi_version = '9.3.1';
+				var mi_track_user = true;
+				var mi_no_track_reason = '';
+								var MonsterInsightsDefaultLocations = {"page_location":"https:\/\/shifting-gears.com\/"};
+				if ( typeof MonsterInsightsPrivacyGuardFilter === 'function' ) {
+					var MonsterInsightsLocations = (typeof MonsterInsightsExcludeQuery === 'object') ? MonsterInsightsPrivacyGuardFilter( MonsterInsightsExcludeQuery ) : MonsterInsightsPrivacyGuardFilter( MonsterInsightsDefaultLocations );
+				} else {
+					var MonsterInsightsLocations = (typeof MonsterInsightsExcludeQuery === 'object') ? MonsterInsightsExcludeQuery : MonsterInsightsDefaultLocations;
+				}
+
+								var disableStrs = [
+										'ga-disable-G-P19C5WRKNG',
+									];
+
+				/* Function to detect opted out users */
+				function __gtagTrackerIsOptedOut() {
+					for (var index = 0; index < disableStrs.length; index++) {
+						if (document.cookie.indexOf(disableStrs[index] + '=true') > -1) {
+							return true;
+						}
+					}
+
+					return false;
+				}
+
+				/* Disable tracking if the opt-out cookie exists. */
+				if (__gtagTrackerIsOptedOut()) {
+					for (var index = 0; index < disableStrs.length; index++) {
+						window[disableStrs[index]] = true;
+					}
+				}
+
+				/* Opt-out function */
+				function __gtagTrackerOptout() {
+					for (var index = 0; index < disableStrs.length; index++) {
+						document.cookie = disableStrs[index] + '=true; expires=Thu, 31 Dec 2099 23:59:59 UTC; path=/';
+						window[disableStrs[index]] = true;
+					}
+				}
+
+				if ('undefined' === typeof gaOptout) {
+					function gaOptout() {
+						__gtagTrackerOptout();
+					}
+				}
+								window.dataLayer = window.dataLayer || [];
+
+				window.MonsterInsightsDualTracker = {
+					helpers: {},
+					trackers: {},
+				};
+				if (mi_track_user) {
+					function __gtagDataLayer() {
+						dataLayer.push(arguments);
+					}
+
+					function __gtagTracker(type, name, parameters) {
+						if (!parameters) {
+							parameters = {};
+						}
+
+						if (parameters.send_to) {
+							__gtagDataLayer.apply(null, arguments);
+							return;
+						}
+
+						if (type === 'event') {
+														parameters.send_to = monsterinsights_frontend.v4_id;
+							var hookName = name;
+							if (typeof parameters['event_category'] !== 'undefined') {
+								hookName = parameters['event_category'] + ':' + name;
+							}
+
+							if (typeof MonsterInsightsDualTracker.trackers[hookName] !== 'undefined') {
+								MonsterInsightsDualTracker.trackers[hookName](parameters);
+							} else {
+								__gtagDataLayer('event', name, parameters);
+							}
+							
+						} else {
+							__gtagDataLayer.apply(null, arguments);
+						}
+					}
+
+					__gtagTracker('js', new Date());
+					__gtagTracker('set', {
+						'developer_id.dZGIzZG': true,
+											});
+					if ( MonsterInsightsLocations.page_location ) {
+						__gtagTracker('set', MonsterInsightsLocations);
+					}
+										__gtagTracker('config', 'G-P19C5WRKNG', {"forceSSL":"true","link_attribution":"true"} );
+															window.gtag = __gtagTracker;										(function () {
+						/* https://developers.google.com/analytics/devguides/collection/analyticsjs/ */
+						/* ga and __gaTracker compatibility shim. */
+						var noopfn = function () {
+							return null;
+						};
+						var newtracker = function () {
+							return new Tracker();
+						};
+						var Tracker = function () {
+							return null;
+						};
+						var p = Tracker.prototype;
+						p.get = noopfn;
+						p.set = noopfn;
+						p.send = function () {
+							var args = Array.prototype.slice.call(arguments);
+							args.unshift('send');
+							__gaTracker.apply(null, args);
+						};
+						var __gaTracker = function () {
+							var len = arguments.length;
+							if (len === 0) {
+								return;
+							}
+							var f = arguments[len - 1];
+							if (typeof f !== 'object' || f === null || typeof f.hitCallback !== 'function') {
+								if ('send' === arguments[0]) {
+									var hitConverted, hitObject = false, action;
+									if ('event' === arguments[1]) {
+										if ('undefined' !== typeof arguments[3]) {
+											hitObject = {
+												'eventAction': arguments[3],
+												'eventCategory': arguments[2],
+												'eventLabel': arguments[4],
+												'value': arguments[5] ? arguments[5] : 1,
+											}
+										}
+									}
+									if ('pageview' === arguments[1]) {
+										if ('undefined' !== typeof arguments[2]) {
+											hitObject = {
+												'eventAction': 'page_view',
+												'page_path': arguments[2],
+											}
+										}
+									}
+									if (typeof arguments[2] === 'object') {
+										hitObject = arguments[2];
+									}
+									if (typeof arguments[5] === 'object') {
+										Object.assign(hitObject, arguments[5]);
+									}
+									if ('undefined' !== typeof arguments[1].hitType) {
+										hitObject = arguments[1];
+										if ('pageview' === hitObject.hitType) {
+											hitObject.eventAction = 'page_view';
+										}
+									}
+									if (hitObject) {
+										action = 'timing' === arguments[1].hitType ? 'timing_complete' : hitObject.eventAction;
+										hitConverted = mapArgs(hitObject);
+										__gtagTracker('event', action, hitConverted);
+									}
+								}
+								return;
+							}
+
+							function mapArgs(args) {
+								var arg, hit = {};
+								var gaMap = {
+									'eventCategory': 'event_category',
+									'eventAction': 'event_action',
+									'eventLabel': 'event_label',
+									'eventValue': 'event_value',
+									'nonInteraction': 'non_interaction',
+									'timingCategory': 'event_category',
+									'timingVar': 'name',
+									'timingValue': 'value',
+									'timingLabel': 'event_label',
+									'page': 'page_path',
+									'location': 'page_location',
+									'title': 'page_title',
+									'referrer' : 'page_referrer',
+								};
+								for (arg in args) {
+																		if (!(!args.hasOwnProperty(arg) || !gaMap.hasOwnProperty(arg))) {
+										hit[gaMap[arg]] = args[arg];
+									} else {
+										hit[arg] = args[arg];
+									}
+								}
+								return hit;
+							}
+
+							try {
+								f.hitCallback();
+							} catch (ex) {
+							}
+						};
+						__gaTracker.create = newtracker;
+						__gaTracker.getByName = newtracker;
+						__gaTracker.getAll = function () {
+							return [];
+						};
+						__gaTracker.remove = noopfn;
+						__gaTracker.loaded = true;
+						window['__gaTracker'] = __gaTracker;
+					})();
+									} else {
+										console.log("");
+					(function () {
+						function __gtagTracker() {
+							return null;
+						}
+
+						window['__gtagTracker'] = __gtagTracker;
+						window['gtag'] = __gtagTracker;
+					})();
+									}
+			</script>
+				<!-- / Google Analytics by MonsterInsights -->
+		<style type="text/css" media="all">@font-face{font-family:'Open Sans';font-display:block;font-style:normal;font-weight:400;font-stretch:100%;font-display:swap;src:url(https://fonts.gstatic.com/s/opensans/v40/memSYaGs126MiZpBA-UvWbX2vVnXBbObj2OVZyOOSr4dVJWUgsjZ0B4taVQUwaEQbjB_mQ.woff) format('woff');unicode-range:U+0460-052F,U+1C80-1C8A,U+20B4,U+2DE0-2DFF,U+A640-A69F,U+FE2E-FE2F}@font-face{font-family:'Open Sans';font-display:block;font-style:normal;font-weight:400;font-stretch:100%;font-display:swap;src:url(https://fonts.gstatic.com/s/opensans/v40/memSYaGs126MiZpBA-UvWbX2vVnXBbObj2OVZyOOSr4dVJWUgsjZ0B4kaVQUwaEQbjB_mQ.woff) format('woff');unicode-range:U+0301,U+0400-045F,U+0490-0491,U+04B0-04B1,U+2116}@font-face{font-family:'Open Sans';font-display:block;font-style:normal;font-weight:400;font-stretch:100%;font-display:swap;src:url(https://fonts.gstatic.com/s/opensans/v40/memSYaGs126MiZpBA-UvWbX2vVnXBbObj2OVZyOOSr4dVJWUgsjZ0B4saVQUwaEQbjB_mQ.woff) format('woff');unicode-range:U+1F00-1FFF}@font-face{font-family:'Open Sans';font-display:block;font-style:normal;font-weight:400;font-stretch:100%;font-display:swap;src:url(https://fonts.gstatic.com/s/opensans/v40/memSYaGs126MiZpBA-UvWbX2vVnXBbObj2OVZyOOSr4dVJWUgsjZ0B4jaVQUwaEQbjB_mQ.woff) format('woff');unicode-range:U+0370-0377,U+037A-037F,U+0384-038A,U+038C,U+038E-03A1,U+03A3-03FF}@font-face{font-family:'Open Sans';font-display:block;font-style:normal;font-weight:400;font-stretch:100%;font-display:swap;src:url(https://fonts.gstatic.com/s/opensans/v40/memSYaGs126MiZpBA-UvWbX2vVnXBbObj2OVZyOOSr4dVJWUgsjZ0B4iaVQUwaEQbjB_mQ.woff) format('woff');unicode-range:U+0307-0308,U+0590-05FF,U+200C-2010,U+20AA,U+25CC,U+FB1D-FB4F}@font-face{font-family:'Open Sans';font-display:block;font-style:normal;font-weight:400;font-stretch:100%;font-display:swap;src:url(https://fonts.gstatic.com/s/opensans/v40/memSYaGs126MiZpBA-UvWbX2vVnXBbObj2OVZyOOSr4dVJWUgsjZ0B5caVQUwaEQbjB_mQ.woff) format('woff');unicode-range:U+0302-0303,U+0305,U+0307-0308,U+0310,U+0312,U+0315,U+031A,U+0326-0327,U+032C,U+032F-0330,U+0332-0333,U+0338,U+033A,U+0346,U+034D,U+0391-03A1,U+03A3-03A9,U+03B1-03C9,U+03D1,U+03D5-03D6,U+03F0-03F1,U+03F4-03F5,U+2016-2017,U+2034-2038,U+203C,U+2040,U+2043,U+2047,U+2050,U+2057,U+205F,U+2070-2071,U+2074-208E,U+2090-209C,U+20D0-20DC,U+20E1,U+20E5-20EF,U+2100-2112,U+2114-2115,U+2117-2121,U+2123-214F,U+2190,U+2192,U+2194-21AE,U+21B0-21E5,U+21F1-21F2,U+21F4-2211,U+2213-2214,U+2216-22FF,U+2308-230B,U+2310,U+2319,U+231C-2321,U+2336-237A,U+237C,U+2395,U+239B-23B7,U+23D0,U+23DC-23E1,U+2474-2475,U+25AF,U+25B3,U+25B7,U+25BD,U+25C1,U+25CA,U+25CC,U+25FB,U+266D-266F,U+27C0-27FF,U+2900-2AFF,U+2B0E-2B11,U+2B30-2B4C,U+2BFE,U+3030,U+FF5B,U+FF5D,U+1D400-1D7FF,U+1EE00-1EEFF}@font-face{font-family:'Open Sans';font-display:block;font-style:normal;font-weight:400;font-stretch:100%;font-display:swap;src:url(https://fonts.gstatic.com/s/opensans/v40/memSYaGs126MiZpBA-UvWbX2vVnXBbObj2OVZyOOSr4dVJWUgsjZ0B5OaVQUwaEQbjB_mQ.woff) format('woff');unicode-range:U+0001-000C,U+000E-001F,U+007F-009F,U+20DD-20E0,U+20E2-20E4,U+2150-218F,U+2190,U+2192,U+2194-2199,U+21AF,U+21E6-21F0,U+21F3,U+2218-2219,U+2299,U+22C4-22C6,U+2300-243F,U+2440-244A,U+2460-24FF,U+25A0-27BF,U+2800-28FF,U+2921-2922,U+2981,U+29BF,U+29EB,U+2B00-2BFF,U+4DC0-4DFF,U+FFF9-FFFB,U+10140-1018E,U+10190-1019C,U+101A0,U+101D0-101FD,U+102E0-102FB,U+10E60-10E7E,U+1D2C0-1D2D3,U+1D2E0-1D37F,U+1F000-1F0FF,U+1F100-1F1AD,U+1F1E6-1F1FF,U+1F30D-1F30F,U+1F315,U+1F31C,U+1F31E,U+1F320-1F32C,U+1F336,U+1F378,U+1F37D,U+1F382,U+1F393-1F39F,U+1F3A7-1F3A8,U+1F3AC-1F3AF,U+1F3C2,U+1F3C4-1F3C6,U+1F3CA-1F3CE,U+1F3D4-1F3E0,U+1F3ED,U+1F3F1-1F3F3,U+1F3F5-1F3F7,U+1F408,U+1F415,U+1F41F,U+1F426,U+1F43F,U+1F441-1F442,U+1F444,U+1F446-1F449,U+1F44C-1F44E,U+1F453,U+1F46A,U+1F47D,U+1F4A3,U+1F4B0,U+1F4B3,U+1F4B9,U+1F4BB,U+1F4BF,U+1F4C8-1F4CB,U+1F4D6,U+1F4DA,U+1F4DF,U+1F4E3-1F4E6,U+1F4EA-1F4ED,U+1F4F7,U+1F4F9-1F4FB,U+1F4FD-1F4FE,U+1F503,U+1F507-1F50B,U+1F50D,U+1F512-1F513,U+1F53E-1F54A,U+1F54F-1F5FA,U+1F610,U+1F650-1F67F,U+1F687,U+1F68D,U+1F691,U+1F694,U+1F698,U+1F6AD,U+1F6B2,U+1F6B9-1F6BA,U+1F6BC,U+1F6C6-1F6CF,U+1F6D3-1F6D7,U+1F6E0-1F6EA,U+1F6F0-1F6F3,U+1F6F7-1F6FC,U+1F700-1F7FF,U+1F800-1F80B,U+1F810-1F847,U+1F850-1F859,U+1F860-1F887,U+1F890-1F8AD,U+1F8B0-1F8BB,U+1F8C0-1F8C1,U+1F900-1F90B,U+1F93B,U+1F946,U+1F984,U+1F996,U+1F9E9,U+1FA00-1FA6F,U+1FA70-1FA7C,U+1FA80-1FA89,U+1FA8F-1FAC6,U+1FACE-1FADC,U+1FADF-1FAE9,U+1FAF0-1FAF8,U+1FB00-1FBFF}@font-face{font-family:'Open Sans';font-display:block;font-style:normal;font-weight:400;font-stretch:100%;font-display:swap;src:url(https://fonts.gstatic.com/s/opensans/v40/memSYaGs126MiZpBA-UvWbX2vVnXBbObj2OVZyOOSr4dVJWUgsjZ0B4vaVQUwaEQbjB_mQ.woff) format('woff');unicode-range:U+0102-0103,U+0110-0111,U+0128-0129,U+0168-0169,U+01A0-01A1,U+01AF-01B0,U+0300-0301,U+0303-0304,U+0308-0309,U+0323,U+0329,U+1EA0-1EF9,U+20AB}@font-face{font-family:'Open Sans';font-display:block;font-style:normal;font-weight:400;font-stretch:100%;font-display:swap;src:url(https://fonts.gstatic.com/s/opensans/v40/memSYaGs126MiZpBA-UvWbX2vVnXBbObj2OVZyOOSr4dVJWUgsjZ0B4uaVQUwaEQbjB_mQ.woff) format('woff');unicode-range:U+0100-02BA,U+02BD-02C5,U+02C7-02CC,U+02CE-02D7,U+02DD-02FF,U+0304,U+0308,U+0329,U+1D00-1DBF,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20C0,U+2113,U+2C60-2C7F,U+A720-A7FF}@font-face{font-family:'Open Sans';font-display:block;font-style:normal;font-weight:400;font-stretch:100%;font-display:swap;src:url(https://fonts.gstatic.com/s/opensans/v40/memSYaGs126MiZpBA-UvWbX2vVnXBbObj2OVZyOOSr4dVJWUgsjZ0B4gaVQUwaEQbjA.woff) format('woff');unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD}@font-face{font-family:'Roboto Slab';font-display:block;font-style:normal;font-weight:400;font-display:swap;src:url(https://fonts.gstatic.com/s/robotoslab/v34/BngbUXZYTXPIvIBgJJSb6s3BzlRRfKOFbvjojISmYmRlV9Su1caiTVo.woff) format('woff');unicode-range:U+0460-052F,U+1C80-1C8A,U+20B4,U+2DE0-2DFF,U+A640-A69F,U+FE2E-FE2F}@font-face{font-family:'Roboto Slab';font-display:block;font-style:normal;font-weight:400;font-display:swap;src:url(https://fonts.gstatic.com/s/robotoslab/v34/BngbUXZYTXPIvIBgJJSb6s3BzlRRfKOFbvjojISma2RlV9Su1caiTVo.woff) format('woff');unicode-range:U+0301,U+0400-045F,U+0490-0491,U+04B0-04B1,U+2116}@font-face{font-family:'Roboto Slab';font-display:block;font-style:normal;font-weight:400;font-display:swap;src:url(https://fonts.gstatic.com/s/robotoslab/v34/BngbUXZYTXPIvIBgJJSb6s3BzlRRfKOFbvjojISmY2RlV9Su1caiTVo.woff) format('woff');unicode-range:U+1F00-1FFF}@font-face{font-family:'Roboto Slab';font-display:block;font-style:normal;font-weight:400;font-display:swap;src:url(https://fonts.gstatic.com/s/robotoslab/v34/BngbUXZYTXPIvIBgJJSb6s3BzlRRfKOFbvjojISmbGRlV9Su1caiTVo.woff) format('woff');unicode-range:U+0370-0377,U+037A-037F,U+0384-038A,U+038C,U+038E-03A1,U+03A3-03FF}@font-face{font-family:'Roboto Slab';font-display:block;font-style:normal;font-weight:400;font-display:swap;src:url(https://fonts.gstatic.com/s/robotoslab/v34/BngbUXZYTXPIvIBgJJSb6s3BzlRRfKOFbvjojISmYGRlV9Su1caiTVo.woff) format('woff');unicode-range:U+0102-0103,U+0110-0111,U+0128-0129,U+0168-0169,U+01A0-01A1,U+01AF-01B0,U+0300-0301,U+0303-0304,U+0308-0309,U+0323,U+0329,U+1EA0-1EF9,U+20AB}@font-face{font-family:'Roboto Slab';font-display:block;font-style:normal;font-weight:400;font-display:swap;src:url(https://fonts.gstatic.com/s/robotoslab/v34/BngbUXZYTXPIvIBgJJSb6s3BzlRRfKOFbvjojISmYWRlV9Su1caiTVo.woff) format('woff');unicode-range:U+0100-02BA,U+02BD-02C5,U+02C7-02CC,U+02CE-02D7,U+02DD-02FF,U+0304,U+0308,U+0329,U+1D00-1DBF,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20C0,U+2113,U+2C60-2C7F,U+A720-A7FF}@font-face{font-family:'Roboto Slab';font-display:block;font-style:normal;font-weight:400;font-display:swap;src:url(https://fonts.gstatic.com/s/robotoslab/v34/BngbUXZYTXPIvIBgJJSb6s3BzlRRfKOFbvjojISmb2RlV9Su1cai.woff) format('woff');unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD}</style>
+<style id='classic-theme-styles-inline-css' type='text/css'>
+/*! This file is auto-generated */
+.wp-block-button__link{color:#fff;background-color:#32373c;border-radius:9999px;box-shadow:none;text-decoration:none;padding:calc(.667em + 2px) calc(1.333em + 2px);font-size:1.125em}.wp-block-file__button{background:#32373c;color:#fff;text-decoration:none}
+</style>
+<style id='global-styles-inline-css' type='text/css'>
+:root{--wp--preset--aspect-ratio--square: 1;--wp--preset--aspect-ratio--4-3: 4/3;--wp--preset--aspect-ratio--3-4: 3/4;--wp--preset--aspect-ratio--3-2: 3/2;--wp--preset--aspect-ratio--2-3: 2/3;--wp--preset--aspect-ratio--16-9: 16/9;--wp--preset--aspect-ratio--9-16: 9/16;--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #ffffff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--color--vce-acc: #da1f3c;--wp--preset--color--vce-meta: #9b9b9b;--wp--preset--color--vce-txt: #444444;--wp--preset--color--vce-bg: #ffffff;--wp--preset--color--vce-cat-0: ;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgba(6,147,227,1) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgba(252,185,0,1) 0%,rgba(255,105,0,1) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgba(255,105,0,1) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--font-size--small: 13px;--wp--preset--font-size--medium: 20px;--wp--preset--font-size--large: 21px;--wp--preset--font-size--x-large: 42px;--wp--preset--font-size--normal: 16px;--wp--preset--font-size--huge: 28px;--wp--preset--spacing--20: 0.44rem;--wp--preset--spacing--30: 0.67rem;--wp--preset--spacing--40: 1rem;--wp--preset--spacing--50: 1.5rem;--wp--preset--spacing--60: 2.25rem;--wp--preset--spacing--70: 3.38rem;--wp--preset--spacing--80: 5.06rem;--wp--preset--shadow--natural: 6px 6px 9px rgba(0, 0, 0, 0.2);--wp--preset--shadow--deep: 12px 12px 50px rgba(0, 0, 0, 0.4);--wp--preset--shadow--sharp: 6px 6px 0px rgba(0, 0, 0, 0.2);--wp--preset--shadow--outlined: 6px 6px 0px -3px rgba(255, 255, 255, 1), 6px 6px rgba(0, 0, 0, 1);--wp--preset--shadow--crisp: 6px 6px 0px rgba(0, 0, 0, 1);}:where(.is-layout-flex){gap: 0.5em;}:where(.is-layout-grid){gap: 0.5em;}body .is-layout-flex{display: flex;}.is-layout-flex{flex-wrap: wrap;align-items: center;}.is-layout-flex > :is(*, div){margin: 0;}body .is-layout-grid{display: grid;}.is-layout-grid > :is(*, div){margin: 0;}:where(.wp-block-columns.is-layout-flex){gap: 2em;}:where(.wp-block-columns.is-layout-grid){gap: 2em;}:where(.wp-block-post-template.is-layout-flex){gap: 1.25em;}:where(.wp-block-post-template.is-layout-grid){gap: 1.25em;}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}
+:where(.wp-block-post-template.is-layout-flex){gap: 1.25em;}:where(.wp-block-post-template.is-layout-grid){gap: 1.25em;}
+:where(.wp-block-columns.is-layout-flex){gap: 2em;}:where(.wp-block-columns.is-layout-grid){gap: 2em;}
+:root :where(.wp-block-pullquote){font-size: 1.5em;line-height: 1.6;}
+</style>
+<style id='akismet-widget-style-inline-css' type='text/css'>
+
+			.a-stats {
+				--akismet-color-mid-green: #357b49;
+				--akismet-color-white: #fff;
+				--akismet-color-light-grey: #f6f7f7;
+
+				max-width: 350px;
+				width: auto;
+			}
+
+			.a-stats * {
+				all: unset;
+				box-sizing: border-box;
+			}
+
+			.a-stats strong {
+				font-weight: 600;
+			}
+
+			.a-stats a.a-stats__link,
+			.a-stats a.a-stats__link:visited,
+			.a-stats a.a-stats__link:active {
+				background: var(--akismet-color-mid-green);
+				border: none;
+				box-shadow: none;
+				border-radius: 8px;
+				color: var(--akismet-color-white);
+				cursor: pointer;
+				display: block;
+				font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen-Sans', 'Ubuntu', 'Cantarell', 'Helvetica Neue', sans-serif;
+				font-weight: 500;
+				padding: 12px;
+				text-align: center;
+				text-decoration: none;
+				transition: all 0.2s ease;
+			}
+
+			/* Extra specificity to deal with TwentyTwentyOne focus style */
+			.widget .a-stats a.a-stats__link:focus {
+				background: var(--akismet-color-mid-green);
+				color: var(--akismet-color-white);
+				text-decoration: none;
+			}
+
+			.a-stats a.a-stats__link:hover {
+				filter: brightness(110%);
+				box-shadow: 0 4px 12px rgba(0, 0, 0, 0.06), 0 0 2px rgba(0, 0, 0, 0.16);
+			}
+
+			.a-stats .count {
+				color: var(--akismet-color-white);
+				display: block;
+				font-size: 1.5em;
+				line-height: 1.4;
+				padding: 0 13px;
+				white-space: nowrap;
+			}
+		
+</style>
+<link rel='stylesheet' id='wpo_min-header-0-css' href='https://park.shifting-gears.com/wp-content/cache/wpo-minify/1742912788/assets/wpo-minify-header-55886bb5.min.css' type='text/css' media='all' />
+<script type="text/javascript" src="https://park.shifting-gears.com/wp-content/cache/wpo-minify/1742912788/assets/wpo-minify-header-59a20ed0.min.js" id="wpo_min-header-0-js" async="async" data-wp-strategy="async"></script>
+<script type="text/javascript" src="https://park.shifting-gears.com/wp-content/cache/wpo-minify/1742912788/assets/wpo-minify-header-79f10e1f.min.js" id="wpo_min-header-1-js"></script>
+<link rel="https://api.w.org/" href="https://shifting-gears.com/wp-json/" /><link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://park.shifting-gears.com/xmlrpc.php?rsd" />
+<meta name="generator" content="WordPress 6.6.2" />
+<meta name="generator" content="Redux 4.5.6" /><meta name="generator" content="Site Kit by Google 1.149.1" />
+<!-- begin LH Instant Articles meta output -->
+<meta property="fb:pages" content="1434040280217035" />
+<!-- end LH Instant Articles meta output -->
+
+<!-- Schema & Structured Data For WP v1.43 - -->
+<script type="application/ld+json" class="saswp-schema-markup-output">
+[{"@context":"https:\/\/schema.org\/","@graph":[{"@type":"NewsMediaOrganization","@id":"https:\/\/shifting-gears.com#Organization","name":"Shifting-Gears","url":"https:\/\/shifting-gears.com","sameAs":["https:\/\/www.facebook.com\/ShiftingGearsIndia\/","https:\/\/twitter.com\/ShiftingGearsIn","https:\/\/www.instagram.com\/shiftinggearsin\/","http:\/\/youtube.com\/@SHIFTINGGEARScom"],"legalName":"Shifting-Gears","logo":{"@type":"ImageObject","url":"https:\/\/park.shifting-gears.com\/wp-content\/uploads\/2022\/11\/shiting-gears-logo.png","width":"1200","height":"183"},"contactPoint":{"@type":"ContactPoint","contactType":"customer support","telephone":"","url":"https:\/\/shifting-gears.com\/contact\/"}},{"@type":"WebSite","@id":"https:\/\/shifting-gears.com#website","headline":"Shifting-Gears","name":"Shifting-Gears","description":"India&#039;s Leading Automobile Media House","url":"https:\/\/shifting-gears.com","publisher":{"@id":"https:\/\/shifting-gears.com#Organization"}},{"@context":"https:\/\/schema.org\/","@type":"WebPage","@id":"https:\/\/shifting-gears.com\/mahindra-xuv700-prices-cut-down-by-up-to-rs-75000\/#webpage","name":"Mahindra XUV700 prices cut down by up to Rs 75,000!","url":"https:\/\/shifting-gears.com\/mahindra-xuv700-prices-cut-down-by-up-to-rs-75000\/","lastReviewed":"2025-03-25T17:04:13+05:30","dateCreated":"2025-03-25T17:04:13+05:30","inLanguage":"en-US","description":"Mahindra XUV700 prices have been cut down by up to Rs 75,000 depending on the variant. It is the highest price cut for the SUV since launch.","keywords":"Mahindra, Mahindra XUV700, ","reviewedBy":{"@type":"Organization","name":"Shifting-Gears","url":"https:\/\/shifting-gears.com","logo":{"@type":"ImageObject","url":"https:\/\/park.shifting-gears.com\/wp-content\/uploads\/2022\/11\/shiting-gears-logo.png","width":"1200","height":"183"}},"publisher":{"@type":"Organization","name":"Shifting-Gears","url":"https:\/\/shifting-gears.com","logo":{"@type":"ImageObject","url":"https:\/\/park.shifting-gears.com\/wp-content\/uploads\/2022\/11\/shiting-gears-logo.png","width":"1200","height":"183"}},"primaryImageOfPage":{"@id":"https:\/\/shifting-gears.com\/mahindra-xuv700-prices-cut-down-by-up-to-rs-75000\/#primaryimage"},"mainContentOfPage":[[{"@context":"https:\/\/schema.org\/","@type":"SiteNavigationElement","@id":"https:\/\/shifting-gears.com#main-nav","name":"HOME","url":"https:\/\/shifting-gears.com\/"},{"@context":"https:\/\/schema.org\/","@type":"SiteNavigationElement","@id":"https:\/\/shifting-gears.com#main-nav","name":"NEWS","url":"https:\/\/shifting-gears.com\/category\/news\/"},{"@context":"https:\/\/schema.org\/","@type":"SiteNavigationElement","@id":"https:\/\/shifting-gears.com#main-nav","name":"CAR NEWS","url":"https:\/\/shifting-gears.com\/category\/news\/car-news\/"},{"@context":"https:\/\/schema.org\/","@type":"SiteNavigationElement","@id":"https:\/\/shifting-gears.com#main-nav","name":"BIKE NEWS","url":"https:\/\/shifting-gears.com\/category\/news\/bike-news\/"},{"@context":"https:\/\/schema.org\/","@type":"SiteNavigationElement","@id":"https:\/\/shifting-gears.com#main-nav","name":"OTHER NEWS","url":"https:\/\/shifting-gears.com\/category\/news\/other-news\/"},{"@context":"https:\/\/schema.org\/","@type":"SiteNavigationElement","@id":"https:\/\/shifting-gears.com#main-nav","name":"REVIEWS","url":"https:\/\/shifting-gears.com\/category\/reviews\/"},{"@context":"https:\/\/schema.org\/","@type":"SiteNavigationElement","@id":"https:\/\/shifting-gears.com#main-nav","name":"BIKE REVIEWS","url":"https:\/\/shifting-gears.com\/category\/reviews\/bike-reviews\/"},{"@context":"https:\/\/schema.org\/","@type":"SiteNavigationElement","@id":"https:\/\/shifting-gears.com#main-nav","name":"CAR REVIEWS","url":"https:\/\/shifting-gears.com\/category\/reviews\/car-reviews\/"},{"@context":"https:\/\/schema.org\/","@type":"SiteNavigationElement","@id":"https:\/\/shifting-gears.com#main-nav","name":"ELECTRIC VEHICLES","url":"https:\/\/shifting-gears.com\/category\/electric-vehicles\/"},{"@context":"https:\/\/schema.org\/","@type":"SiteNavigationElement","@id":"https:\/\/shifting-gears.com#main-nav","name":"ADVICE","url":"https:\/\/shifting-gears.com\/category\/advice\/"},{"@context":"https:\/\/schema.org\/","@type":"SiteNavigationElement","@id":"https:\/\/shifting-gears.com#main-nav","name":"FEATURES","url":"https:\/\/shifting-gears.com\/category\/features\/"},{"@context":"https:\/\/schema.org\/","@type":"SiteNavigationElement","@id":"https:\/\/shifting-gears.com#main-nav","name":"VIDEOS","url":"https:\/\/shifting-gears.com\/videos\/"}]],"isPartOf":{"@id":"https:\/\/shifting-gears.com#website"}},{"@type":"NewsArticle","@id":"https:\/\/shifting-gears.com\/mahindra-xuv700-prices-cut-down-by-up-to-rs-75000\/#newsarticle","url":"https:\/\/shifting-gears.com\/mahindra-xuv700-prices-cut-down-by-up-to-rs-75000\/","headline":"Mahindra XUV700 prices cut down by up to Rs 75,000!","mainEntityOfPage":"https:\/\/shifting-gears.com\/mahindra-xuv700-prices-cut-down-by-up-to-rs-75000\/#webpage","datePublished":"2025-03-25T17:04:13+05:30","dateModified":"2025-03-25T17:04:13+05:30","description":"Mahindra XUV700 prices have been cut down by up to Rs 75,000 depending on the variant. It is the highest price cut for the SUV since launch.","articleSection":"News","articleBody":"Key highlights     \tMahindra XUV700 undergoes a massive price cut   \tAX7 L variants available at Rs 75,000 less   \tHighest ever price cut down for the SUV since launch    Mahindra has cut down the pricing for the top variants of the XUV700. The massive price cut stands up to Rs 75,000, depending on the variant. Check out the complete details of the price cut below.    Also read: New-gen Jeep Compass spied testing, looks like baby Grand Cherokee!  Mahindra XUV700 price slash details  As per the latest price revision, the AX7 and AX7 L trims of the XUV700 have witnessed a price slash. The AX7 variants now cost Rs 45,000 less for the automatic gearbox with a petrol or diesel engine option.    Meanwhile, the AX7 L automatic variants for both petrol and diesel are now cheaper by Rs 75,000. However, the prices for the AX7 manual options, for both petrol and diesel, are unchanged.    With the newly revised prices, the AX7 range now starts from Rs 20.99 lakh for the Petrol AT and goes up to Rs 24.99 lakh for the Diesel AT AWD.    Mind you, this is the biggest price cut for the XUV700 since the SUV was introduced. Initially, the XUV700 was ultra popular but with the launch of Scorpio N, it lost the charm among buyers.    Moreover, the AX7 and AX7 L variants were the only ones equipped with the range-topping features like ADAS. However, the long waiting period and hefty price tag restricted buyers from choosing them.    Now, to balance the demand and supply, Mahindra has cut down the prices only for these top-end trims. Meanwhile, the value-for-money variants like the AX5 Select are still available without any discount or price cut.    Also read: Tata Group to partner with Tesla to supply EV parts internationally  Our verdict  The XUV700 is a refined Mahindra product that offers a comfortable ride quality, powerful engine options, and a solid build quality. However, the segment-first features were only limited to the top variants, which Mahindra has made more affordable than ever now with the price slash.","keywords":["Mahindra"," Mahindra XUV700"," "],"name":"Mahindra XUV700 prices cut down by up to Rs 75,000!","thumbnailUrl":"https:\/\/park.shifting-gears.com\/wp-content\/uploads\/2024\/06\/XUV700-Deep-Forest-150x150.jpg","wordCount":"331","timeRequired":"PT1M28S","mainEntity":{"@type":"WebPage","@id":"https:\/\/shifting-gears.com\/mahindra-xuv700-prices-cut-down-by-up-to-rs-75000\/"},"author":{"@type":"Person","name":"News Desk","url":"https:\/\/shifting-gears.com\/author\/news-desk\/","sameAs":["http:\/\/www.Shifting-Gears.com"],"image":{"@type":"ImageObject","url":"https:\/\/secure.gravatar.com\/avatar\/0d2496201283abd99a59adc3b16bb2e2?s=96&d=mm&r=g","height":96,"width":96}},"editor":{"@type":"Person","name":"News Desk","url":"https:\/\/shifting-gears.com\/author\/news-desk\/","sameAs":["http:\/\/www.Shifting-Gears.com"],"image":{"@type":"ImageObject","url":"https:\/\/secure.gravatar.com\/avatar\/0d2496201283abd99a59adc3b16bb2e2?s=96&d=mm&r=g","height":96,"width":96}},"publisher":{"@id":"https:\/\/shifting-gears.com#Organization"},"speakable":{"@type":"SpeakableSpecification","xpath":["\/html\/head\/title","\/html\/head\/meta[@name='description']\/@content"]},"image":[{"@type":"ImageObject","@id":"https:\/\/shifting-gears.com\/mahindra-xuv700-prices-cut-down-by-up-to-rs-75000\/#primaryimage","url":"https:\/\/park.shifting-gears.com\/wp-content\/uploads\/2024\/06\/XUV700-Deep-Forest.jpg","width":"1200","height":"675","caption":"Mahindra XUV700"}],"isPartOf":{"@id":"https:\/\/shifting-gears.com\/mahindra-xuv700-prices-cut-down-by-up-to-rs-75000\/#webpage"}}]}]
+</script>
+
+    <script>
+		if(screen.width<769){
+        	window.location = "https://shifting-gears.com/amp/";
+        }
+    	</script>
+<link rel="icon" href="https://park.shifting-gears.com/wp-content/uploads/2016/04/shifting-gears-favicon.png" sizes="32x32" />
+<link rel="icon" href="https://park.shifting-gears.com/wp-content/uploads/2016/04/shifting-gears-favicon.png" sizes="192x192" />
+<meta name="msapplication-TileImage" content="https://park.shifting-gears.com/wp-content/uploads/2016/04/shifting-gears-favicon.png" />
+<meta name="pwaforwp" content="wordpress-plugin"/>
+        <meta name="theme-color" content="#D5E0EB">
+        <meta name="apple-mobile-web-app-title" content="Shifting-Gears">
+        <meta name="application-name" content="Shifting-Gears">
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-status-bar-style" content="default">
+        <meta name="mobile-web-app-capable" content="yes">
+        <meta name="apple-touch-fullscreen" content="yes">
+<link rel="apple-touch-icon" sizes="192x192" href="https://park.shifting-gears.com/wp-content/plugins/pwa-for-wp/images/logo.png">
+<link rel="apple-touch-icon" sizes="512x512" href="https://park.shifting-gears.com/wp-content/plugins/pwa-for-wp/images/logo-512x512.png">
+		<style type="text/css" id="wp-custom-css">
+			@media only screen and (max-width: 670px) and (min-width: 200px)
+{
+.sidebar {
+    display: none !important;
+}
+section.main-box.mbt-border-top.author-box {
+ display: none !important; 
+}
+}ins.adsbygoogle {
+    text-align: center !important;
+}
+
+header.container.design3-header {
+    padding-bottom: 12px !important;
+}
+
+.amp-logo amp-img{
+	width: 240px !important;
+}
+
+.header-1-wrapper {
+    height: 114px !important;
+    padding-top: 15px;
+}
+.has-logo img {
+    height: 70px !important;
+}		</style>
+		
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-T0JL8XKC92"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-T0JL8XKC92');
+</script>
+
+	
+	<script type="application/ld+json">
+{
+    "@context": "https://schema.org/",
+    "@type": "Blog",
+    "@id": "https://shifting-gears.com/",
+    "mainEntityOfPage": "https://shifting-gears.com/",
+    "name": "Shifting Gears",
+    "description": "Thoughts about Linked Data, Schema.org, Structured Data, Cultural Heritage Meta Data, and associated technologies",
+    "publisher": {
+        "@type": "Organization",
+        "@id": "https://shifting-gears.com/",
+        "name": "Shifting Gears",
+        "logo": {
+            "@type": "ImageObject",
+            "@id": "https://park.shifting-gears.com/wp-content/uploads/2022/11/shiting-gears-logo.png",
+            "url": "https://park.shifting-gears.com/wp-content/uploads/2022/11/shiting-gears-logo.png"
+        }
+    }
+}
+</script>
+</head>
+
+<body data-rsssl=1 class="home blog wp-embed-responsive vce-sid-right voice-v_3_0_3 voice-child"><!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-M7P8HC8"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+<div id="vce-main">
+
+<header id="header" class="main-header">
+<div class="top-header">
+	<div class="container">
+
+					<div style="margin-top: 10px;" class="vce-wrap-left">
+			Tuesday 25th March 2025 <div style="margin-top: -11px; margin-right: 12px;">	</div>
+			</div>
+				
+					<div class="vce-wrap-right">
+					<div class="menu-social-menu-container"><ul id="vce_social_menu" class="soc-nav-menu"><li id="menu-item-57008" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-57008"><a target="_blank" rel="noopener" href="https://www.facebook.com/ShiftingGearsIndia/"><span class="vce-social-name">Facebook</span></a></li>
+<li id="menu-item-57009" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-57009"><a target="_blank" rel="noopener" href="https://twitter.com/ShiftingGearsIn"><span class="vce-social-name">Twitter</span></a></li>
+<li id="menu-item-57196" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-57196"><a target="_blank" rel="noopener" href="https://www.instagram.com/shiftinggearsin/"><span class="vce-social-name">Instagram</span></a></li>
+<li id="menu-item-57200" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-57200"><a target="_blank" rel="noopener" href="https://www.youtube.com/channel/UCAOhZoipb7jDigA7KHvGrQg"><span class="vce-social-name">Youtube</span></a></li>
+</ul></div>			</div>
+		
+		
+
+
+	</div>
+</div><div class="container header-1-wrapper header-main-area">	
+		<div class="vce-res-nav">
+	<a class="vce-responsive-nav" href="#sidr-main"><i class="fa fa-bars"></i></a>
+</div>
+<div class="site-branding">
+		
+	
+	<h1 class="site-title">
+		<a href="https://shifting-gears.com/" title="Shifting-Gears" class="has-logo"><img src="https://park.shifting-gears.com/wp-content/uploads/2022/11/shiting-gears-logo.png" alt="Shifting-Gears" /></a>
+	</h1>
+
+	
+
+</div></div>
+
+<div class="header-bottom-wrapper">
+	<div class="container">
+		<nav id="site-navigation" class="main-navigation" role="navigation">
+	<ul id="vce_main_navigation_menu" class="nav-menu"><li id="menu-item-57415" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-57415"><a href="https://shifting-gears.com/" aria-current="page">HOME</a><li id="menu-item-7" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-item-7 vce-cat-2"><a href="https://shifting-gears.com/category/news/">NEWS</a>
+<ul class="sub-menu">
+	<li id="menu-item-9" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-9 vce-cat-4"><a href="https://shifting-gears.com/category/news/car-news/">CAR NEWS</a>	<li id="menu-item-8" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-8 vce-cat-3"><a href="https://shifting-gears.com/category/news/bike-news/">BIKE NEWS</a>	<li id="menu-item-559" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-559 vce-cat-10"><a href="https://shifting-gears.com/category/news/other-news/">OTHER NEWS</a></ul>
+<li id="menu-item-142" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-item-142 vce-cat-5"><a href="https://shifting-gears.com/category/reviews/">REVIEWS</a>
+<ul class="sub-menu">
+	<li id="menu-item-11" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-11 vce-cat-6"><a href="https://shifting-gears.com/category/reviews/bike-reviews/">BIKE REVIEWS</a>	<li id="menu-item-12" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-12 vce-cat-7"><a href="https://shifting-gears.com/category/reviews/car-reviews/">CAR REVIEWS</a></ul>
+<li id="menu-item-107514" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-107514 vce-cat-5244"><a href="https://shifting-gears.com/category/electric-vehicles/">ELECTRIC VEHICLES</a><li id="menu-item-23604" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-23604 vce-cat-2001"><a href="https://shifting-gears.com/category/advice/">ADVICE</a><li id="menu-item-23606" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-23606 vce-cat-2002"><a href="https://shifting-gears.com/category/features/">FEATURES</a><li id="menu-item-58162" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-58162"><a href="https://shifting-gears.com/videos/">VIDEOS</a><li class="search-header-wrap"><a class="search_header" href="javascript:void(0)"><i class="fa fa-search"></i></a><ul class="search-header-form-ul"><li><form class="vce-search-form" action="https://shifting-gears.com/" method="get">
+	<input name="s" class="vce-search-input" size="20" type="text" value="Type here to search..." onfocus="(this.value == 'Type here to search...') && (this.value = '')" onblur="(this.value == '') && (this.value = 'Type here to search...')" placeholder="Type here to search..." />
+		<button type="submit" class="vce-search-submit"><i class="fa fa-search"></i></button> 
+</form></li></ul></li></ul></nav>	</div>
+</div></header>
+
+<div id="main-wrapper">
+
+
+	<div id="mks-breadcrumbs" class="container mks-bredcrumbs-container"><p id="breadcrumbs"><span><span class="breadcrumb_last" aria-current="page">Home</span></span></p></div>
+<div id="content" class="container site-content">
+
+				
+	<div id="primary" class="vce-main-content">
+		
+		<div class="main-box">
+
+			
+	<div class="main-box-head">
+		<h1 class="main-box-title">Latest articles</h1>
+			</div>
+
+			<div class="main-box-inside">
+			
+							
+				
+				<div class="vce-loop-wrap">
+
+											
+						<article class="vce-post vce-lay-b post-189390 post type-post status-publish format-standard has-post-thumbnail hentry category-car-news category-news tag-mahindra tag-mahindra-xuv700 lh_instant_articles-syndicate-yes">
+
+ 		 	<div class="meta-image">			
+			<a href="https://shifting-gears.com/mahindra-xuv700-prices-cut-down-by-up-to-rs-75000/" title="Mahindra XUV700 prices cut down by up to Rs 75,000!">
+				<img width="375" height="195" src="https://park.shifting-gears.com/wp-content/uploads/2024/06/XUV700-Deep-Forest-375x195.jpg" class="attachment-vce-lay-b size-vce-lay-b wp-post-image" alt="Mahindra XUV700" />							</a>
+		</div>
+		
+
+	<header class="entry-header">
+					<span class="meta-category"><a href="https://shifting-gears.com/category/news/car-news/" class="category-4">Car News</a> <span>&bull;</span> <a href="https://shifting-gears.com/category/news/" class="category-2">News</a></span>
+				<h2 class="entry-title"><a href="https://shifting-gears.com/mahindra-xuv700-prices-cut-down-by-up-to-rs-75000/" title="Mahindra XUV700 prices cut down by up to Rs 75,000!">Mahindra XUV700 prices cut down by up to Rs 75,000!</a></h2>
+		<div class="entry-meta"><div class="meta-item date"><span class="updated">25/03/2025</span></div></div>	</header>
+
+	
+</article>
+						
+											
+						<article class="vce-post vce-lay-b post-189384 post type-post status-publish format-standard has-post-thumbnail hentry category-bike-news category-electric-vehicles category-news tag-hero tag-hero-vida-z lh_instant_articles-syndicate-yes">
+
+ 		 	<div class="meta-image">			
+			<a href="https://shifting-gears.com/upcoming-hero-vida-z-electric-scooter-spotted-testing/" title="Upcoming Hero Vida Z electric scooter spotted testing">
+				<img width="375" height="195" src="https://park.shifting-gears.com/wp-content/uploads/2025/03/Hero-Vida-Spied2-375x195.jpg" class="attachment-vce-lay-b size-vce-lay-b wp-post-image" alt="Hero Vida Z" />							</a>
+		</div>
+		
+
+	<header class="entry-header">
+					<span class="meta-category"><a href="https://shifting-gears.com/category/news/bike-news/" class="category-3">Bike News</a> <span>&bull;</span> <a href="https://shifting-gears.com/category/electric-vehicles/" class="category-5244">Electric Vehicles</a> <span>&bull;</span> <a href="https://shifting-gears.com/category/news/" class="category-2">News</a></span>
+				<h2 class="entry-title"><a href="https://shifting-gears.com/upcoming-hero-vida-z-electric-scooter-spotted-testing/" title="Upcoming Hero Vida Z electric scooter spotted testing">Upcoming Hero Vida Z electric scooter spotted testing</a></h2>
+		<div class="entry-meta"><div class="meta-item date"><span class="updated">25/03/2025</span></div></div>	</header>
+
+	
+</article>
+						
+											
+						<article class="vce-post vce-lay-b post-189380 post type-post status-publish format-standard has-post-thumbnail hentry category-electric-vehicles category-news category-other-news tag-tata tag-tesla lh_instant_articles-syndicate-yes">
+
+ 		 	<div class="meta-image">			
+			<a href="https://shifting-gears.com/tata-group-to-partner-with-tesla-to-supply-ev-parts-internationally/" title="Tata Group to partner with Tesla to supply EV parts internationally">
+				<img width="375" height="195" src="https://park.shifting-gears.com/wp-content/uploads/2025/03/tatamotors2024_banner_desktop_1920x1080-375x195.jpg" class="attachment-vce-lay-b size-vce-lay-b wp-post-image" alt="Tata Group" />							</a>
+		</div>
+		
+
+	<header class="entry-header">
+					<span class="meta-category"><a href="https://shifting-gears.com/category/electric-vehicles/" class="category-5244">Electric Vehicles</a> <span>&bull;</span> <a href="https://shifting-gears.com/category/news/" class="category-2">News</a> <span>&bull;</span> <a href="https://shifting-gears.com/category/news/other-news/" class="category-10">Other News</a></span>
+				<h2 class="entry-title"><a href="https://shifting-gears.com/tata-group-to-partner-with-tesla-to-supply-ev-parts-internationally/" title="Tata Group to partner with Tesla to supply EV parts internationally">Tata Group to partner with Tesla to supply EV parts internationally</a></h2>
+		<div class="entry-meta"><div class="meta-item date"><span class="updated">25/03/2025</span></div></div>	</header>
+
+	
+</article>
+						
+											
+						<article class="vce-post vce-lay-b post-189377 post type-post status-publish format-standard has-post-thumbnail hentry category-car-news category-news tag-jeep tag-new-generation-jeep-compass lh_instant_articles-syndicate-yes">
+
+ 		 	<div class="meta-image">			
+			<a href="https://shifting-gears.com/new-gen-jeep-compass-spied-testing-looks-like-baby-grand-cherokee/" title="New-gen Jeep Compass spied testing, looks like baby Grand Cherokee!">
+				<img width="375" height="195" src="https://park.shifting-gears.com/wp-content/uploads/2025/03/compass1-375x195.jpg" class="attachment-vce-lay-b size-vce-lay-b wp-post-image" alt="New-gen Jeep Compass" loading="lazy" />							</a>
+		</div>
+		
+
+	<header class="entry-header">
+					<span class="meta-category"><a href="https://shifting-gears.com/category/news/car-news/" class="category-4">Car News</a> <span>&bull;</span> <a href="https://shifting-gears.com/category/news/" class="category-2">News</a></span>
+				<h2 class="entry-title"><a href="https://shifting-gears.com/new-gen-jeep-compass-spied-testing-looks-like-baby-grand-cherokee/" title="New-gen Jeep Compass spied testing, looks like baby Grand Cherokee!">New-gen Jeep Compass spied testing, looks like baby Grand Cherokee!</a></h2>
+		<div class="entry-meta"><div class="meta-item date"><span class="updated">25/03/2025</span></div></div>	</header>
+
+	
+</article>
+						
+											
+						<article class="vce-post vce-lay-b post-189371 post type-post status-publish format-standard has-post-thumbnail hentry category-bike-news category-news tag-2025-bajaj-pulsar-ns160 tag-bajaj lh_instant_articles-syndicate-yes">
+
+ 		 	<div class="meta-image">			
+			<a href="https://shifting-gears.com/2025-bajaj-pulsar-ns160-launched-with-ride-modes-and-navigation/" title="2025 Bajaj Pulsar NS160 launched with ride modes and navigation">
+				<img width="375" height="195" src="https://park.shifting-gears.com/wp-content/uploads/2025/03/2025-pulsar-ns160-launched-with-new-features-1-375x195.jpg" class="attachment-vce-lay-b size-vce-lay-b wp-post-image" alt="2025 Bajaj Pulsar NS160" loading="lazy" />							</a>
+		</div>
+		
+
+	<header class="entry-header">
+					<span class="meta-category"><a href="https://shifting-gears.com/category/news/bike-news/" class="category-3">Bike News</a> <span>&bull;</span> <a href="https://shifting-gears.com/category/news/" class="category-2">News</a></span>
+				<h2 class="entry-title"><a href="https://shifting-gears.com/2025-bajaj-pulsar-ns160-launched-with-ride-modes-and-navigation/" title="2025 Bajaj Pulsar NS160 launched with ride modes and navigation">2025 Bajaj Pulsar NS160 launched with ride modes and navigation</a></h2>
+		<div class="entry-meta"><div class="meta-item date"><span class="updated">25/03/2025</span></div></div>	</header>
+
+	
+</article>
+						
+											
+						<article class="vce-post vce-lay-b post-189368 post type-post status-publish format-standard has-post-thumbnail hentry category-electric-vehicles category-news tag-be-6-range-and-features tag-mahindra-be-6-deliveries tag-mahindra-electric-suv lh_instant_articles-syndicate-yes">
+
+ 		 	<div class="meta-image">			
+			<a href="https://shifting-gears.com/mahindra-be-6-electric-suv-deliveries-commenced/" title="Mahindra BE 6 electric SUV deliveries commenced">
+				<img width="375" height="195" src="https://park.shifting-gears.com/wp-content/uploads/2024/11/Mahindra-EV-Teaser05-F02-375x195.png" class="attachment-vce-lay-b size-vce-lay-b wp-post-image" alt="Mahindra BE 6" loading="lazy" />							</a>
+		</div>
+		
+
+	<header class="entry-header">
+					<span class="meta-category"><a href="https://shifting-gears.com/category/electric-vehicles/" class="category-5244">Electric Vehicles</a> <span>&bull;</span> <a href="https://shifting-gears.com/category/news/" class="category-2">News</a></span>
+				<h2 class="entry-title"><a href="https://shifting-gears.com/mahindra-be-6-electric-suv-deliveries-commenced/" title="Mahindra BE 6 electric SUV deliveries commenced">Mahindra BE 6 electric SUV deliveries commenced</a></h2>
+		<div class="entry-meta"><div class="meta-item date"><span class="updated">24/03/2025</span></div></div>	</header>
+
+	
+</article>
+						
+					
+				</div>
+
+					<nav id="vce-pagination" class="vce-infinite-scroll">
+		<a href="https://shifting-gears.com/page/2/"> </a>	</nav>
+
+			
+			</div>
+
+		</div>
+
+	</div>
+
+		<aside id="sidebar" class="sidebar right">
+		
+		<div id="recent-posts-4" class="widget widget_recent_entries">
+		<h4 class="widget-title">Latest Articles</h4>
+		<ul>
+											<li>
+					<a href="https://shifting-gears.com/mahindra-xuv700-prices-cut-down-by-up-to-rs-75000/">Mahindra XUV700 prices cut down by up to Rs 75,000!</a>
+											<span class="post-date">25/03/2025</span>
+									</li>
+											<li>
+					<a href="https://shifting-gears.com/upcoming-hero-vida-z-electric-scooter-spotted-testing/">Upcoming Hero Vida Z electric scooter spotted testing</a>
+											<span class="post-date">25/03/2025</span>
+									</li>
+											<li>
+					<a href="https://shifting-gears.com/tata-group-to-partner-with-tesla-to-supply-ev-parts-internationally/">Tata Group to partner with Tesla to supply EV parts internationally</a>
+											<span class="post-date">25/03/2025</span>
+									</li>
+											<li>
+					<a href="https://shifting-gears.com/new-gen-jeep-compass-spied-testing-looks-like-baby-grand-cherokee/">New-gen Jeep Compass spied testing, looks like baby Grand Cherokee!</a>
+											<span class="post-date">25/03/2025</span>
+									</li>
+											<li>
+					<a href="https://shifting-gears.com/2025-bajaj-pulsar-ns160-launched-with-ride-modes-and-navigation/">2025 Bajaj Pulsar NS160 launched with ride modes and navigation</a>
+											<span class="post-date">25/03/2025</span>
+									</li>
+					</ul>
+
+		</div>	</aside>
+
+</div>
+
+
+
+	<footer id="footer" class="site-footer">
+
+		
+					<div class="container-full site-info">
+				<div class="container">
+											<div class="vce-wrap-left">
+							<p>Copyright &copy; 2024. All Rights Reserved.</p>						</div>
+					
+											<div class="vce-wrap-right">
+								<div class="menu-social-menu-container"><ul id="vce_social_menu" class="soc-nav-menu"><li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-57008"><a target="_blank" rel="noopener" href="https://www.facebook.com/ShiftingGearsIndia/"><span class="vce-social-name">Facebook</span></a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-57009"><a target="_blank" rel="noopener" href="https://twitter.com/ShiftingGearsIn"><span class="vce-social-name">Twitter</span></a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-57196"><a target="_blank" rel="noopener" href="https://www.instagram.com/shiftinggearsin/"><span class="vce-social-name">Instagram</span></a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-57200"><a target="_blank" rel="noopener" href="https://www.youtube.com/channel/UCAOhZoipb7jDigA7KHvGrQg"><span class="vce-social-name">Youtube</span></a></li>
+</ul></div>
+						</div>
+						
+
+											<div class="vce-wrap-center">
+								
+						</div>
+					
+			
+				</div>
+			</div>
+		
+
+	</footer>
+
+
+</div>
+</div>
+
+<a href="javascript:void(0)" id="back-top"><i class="fa fa-angle-up"></i></a>
+
+<script type="text/javascript" src="https://park.shifting-gears.com/wp-content/cache/wpo-minify/1742912788/assets/wpo-minify-footer-70a40d11.min.js" id="wpo_min-footer-0-js"></script>
+<script type="text/javascript" id="wpo_min-footer-1-js-extra">
+/* <![CDATA[ */
+var vce_js_settings = {"sticky_header":"","sticky_header_offset":"200","sticky_header_logo":"","logo":"https:\/\/park.shifting-gears.com\/wp-content\/uploads\/2022\/11\/shiting-gears-logo.png","logo_retina":"https:\/\/park.shifting-gears.com\/wp-content\/uploads\/2022\/11\/shiting-gears-logo.png","logo_mobile":"https:\/\/park.shifting-gears.com\/wp-content\/uploads\/2022\/11\/shiting-gears-logo.png","logo_mobile_retina":"https:\/\/park.shifting-gears.com\/wp-content\/uploads\/2022\/11\/shiting-gears-logo.png","rtl_mode":"0","ajax_url":"https:\/\/park.shifting-gears.com\/wp-admin\/admin-ajax.php","ajax_wpml_current_lang":null,"ajax_mega_menu":"1","mega_menu_slider":"","mega_menu_subcats":"","lay_fa_grid_center":"","full_slider_autoplay":"","grid_slider_autoplay":"","grid_big_slider_autoplay":"","fa_big_opacity":{"1":"0.5","2":"0.7"},"top_bar_mobile":"1","top_bar_mobile_group":"","top_bar_more_link":"More"};
+var pwaforwp_js_obj = {"ajax_url":"https:\/\/park.shifting-gears.com\/wp-admin\/admin-ajax.php","pwa_ms_prefix":"","pwa_home_url":"https:\/\/shifting-gears.com\/","loader_desktop":"0","loader_mobile":"0","loader_admin":"0","user_admin":"","loader_only_pwa":"0","reset_cookies":"0","force_rememberme":"0","swipe_navigation":"0"};
+var pwaforwp_download_js_obj = {"force_rememberme":"0"};
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://park.shifting-gears.com/wp-content/cache/wpo-minify/1742912788/assets/wpo-minify-footer-9ab23b96.min.js" id="wpo_min-footer-1-js"></script>
+
+</body>
+</html>
+<!-- Cached by WP-Optimize (gzip) - https://getwpo.com - Last modified: 25/03/2025 7:57 pm (Asia/Kolkata UTC:5.5) -->

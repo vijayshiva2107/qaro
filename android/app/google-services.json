@@ -1,0 +1,118 @@
+{
+  "project_info": {
+    "project_number": "528265556723",
+    "project_id": "qarocarapp",
+    "storage_bucket": "qarocarapp.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:528265556723:android:6ef4e0df06cce7b7e2bd86",
+        "android_client_info": {
+          "package_name": "com.example.carapp_fixed"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "528265556723-o467m2tve7i1ovsibbdq0m8va9srqcj1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDRpd3ztv01jV80BxkLpxGK1BSg_s2VW2A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "528265556723-o467m2tve7i1ovsibbdq0m8va9srqcj1.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "528265556723-cnffksni9r385bh95cd5lpjff7be2or5.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.flutterApplication1"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:528265556723:android:dd13db5176af980ce2bd86",
+        "android_client_info": {
+          "package_name": "com.example.qaro"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "528265556723-o467m2tve7i1ovsibbdq0m8va9srqcj1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDRpd3ztv01jV80BxkLpxGK1BSg_s2VW2A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "528265556723-o467m2tve7i1ovsibbdq0m8va9srqcj1.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "528265556723-cnffksni9r385bh95cd5lpjff7be2or5.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.flutterApplication1"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:528265556723:android:b904116be196d8b3e2bd86",
+        "android_client_info": {
+          "package_name": "com.project.carhub"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "528265556723-o467m2tve7i1ovsibbdq0m8va9srqcj1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDRpd3ztv01jV80BxkLpxGK1BSg_s2VW2A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "528265556723-o467m2tve7i1ovsibbdq0m8va9srqcj1.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "528265556723-cnffksni9r385bh95cd5lpjff7be2or5.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.flutterApplication1"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
