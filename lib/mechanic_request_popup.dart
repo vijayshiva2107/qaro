@@ -38,8 +38,16 @@ class _MechanicRequestPopupState extends State<MechanicRequestPopup> {
       }
     });
   }
-final String mechanicId = FirebaseAuth.instance.currentUser!.uid;
+  @override
+  void dispose() {
+    timer?.cancel();
+    super.dispose();
+  }
+
+  final String mechanicId = FirebaseAuth.instance.currentUser!.uid;
+
   void acceptRequest() {
+    timer?.cancel();
     FirebaseFirestore.instance
         .collection("bookings")
         .doc(widget.bookingId)
@@ -60,6 +68,7 @@ final String mechanicId = FirebaseAuth.instance.currentUser!.uid;
   }
 
   void rejectRequest() {
+    timer?.cancel();
     FirebaseFirestore.instance
         .collection("bookings")
         .doc(widget.bookingId)
