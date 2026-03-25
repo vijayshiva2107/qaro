@@ -34,7 +34,7 @@ class _MerchantTrackingPageState extends State<MerchantTrackingPage> {
 
   // Streams
   StreamSubscription<DocumentSnapshot>? _bookingSubscription;
-  StreamSubscription<DocumentSnapshot>? _mechanicSubscription;
+  StreamSubscription<Position>? _mechanicLocationStream;
 
   // Map variables
   GoogleMapController? mapController;
@@ -58,7 +58,7 @@ class _MerchantTrackingPageState extends State<MerchantTrackingPage> {
   @override
   void dispose() {
     _bookingSubscription?.cancel();
-    _mechanicSubscription?.cancel();
+    _mechanicLocationStream?.cancel();
     super.dispose();
   }
 
@@ -115,25 +115,36 @@ class _MerchantTrackingPageState extends State<MerchantTrackingPage> {
       }
     });
 
-    // 2. Listen to Mechanic Location natively
-    _listenToMechanic();
+    // 2. Listen to Mechanic Location natively via GPS instead of waiting for Firestore
+    _listenToMechanicLocation();
   }
 
-  void _listenToMechanic() {
-    _mechanicSubscription = FirebaseFirestore.instance
-        .collection('merchants')
-        .doc(widget.mechanicId)
-        .snapshots()
-        .listen((mechSnapshot) {
-      if (!mechSnapshot.exists || mechSnapshot.data() == null) return;
+  void _listenToMechanicLocation() async {
+    LocationPermission permission = await Geolocator.checkPermission();
+    if (permission == LocationPermission.denied) {
+      permission = await Geolocator.requestPermission();
+    }
+    
+    if (permission == LocationPermission.denied || permission == LocationPermission.deniedForever) {
+      return;
+    }
 
-      final data = mechSnapshot.data() as Map<String, dynamic>;
+    _mechanicLocationStream = Geolocator.getPositionStream(
+      locationSettings: const LocationSettings(
+        accuracy: LocationAccuracy.high,
+        distanceFilter: 5,
+      ),
+    ).listen((Position position) {
+      LatLng newLoc = LatLng(position.latitude, position.longitude);
+      _handleMechanicLocationUpdate(newLoc);
 
-      if (data['location'] != null) {
-        GeoPoint geo = data['location'];
-        LatLng newLoc = LatLng(geo.latitude, geo.longitude);
-        _handleMechanicLocationUpdate(newLoc);
-      }
+      // Write to Firestore so the client can track the mechanic
+      FirebaseFirestore.instance
+          .collection('merchants')
+          .doc(widget.mechanicId)
+          .update({
+        "location": GeoPoint(position.latitude, position.longitude)
+      });
     });
   }
 
