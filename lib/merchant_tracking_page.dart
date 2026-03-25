@@ -361,36 +361,100 @@ class _MerchantTrackingPageState extends State<MerchantTrackingPage> {
   }
 
   void _finishJob() async {
-    bool confirm = await showDialog(
+    // Step 1: Generate a 4-digit OTP and save it to Firestore
+    final otp = (1000 + (DateTime.now().millisecondsSinceEpoch % 9000)).toString();
+
+    await FirebaseFirestore.instance.collection('bookings').doc(widget.bookingId).update({
+      'completionOtp': otp,
+      'otpRequestedAt': FieldValue.serverTimestamp(),
+    });
+
+    if (!mounted) return;
+
+    // Step 2: Show OTP entry dialog for mechanic
+    final otpController = TextEditingController();
+    bool? verified = await showDialog<bool>(
       context: context,
-      builder: (context) => AlertDialog(
-        title: const Text("Finish Job?"),
-        content: const Text("Have you arrived and completed the service?"),
+      barrierDismissible: false,
+      builder: (ctx) => AlertDialog(
         shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(20)),
+        title: const Row(
+          children: [
+            Icon(Icons.lock_outline, color: Colors.green),
+            SizedBox(width: 10),
+            Text("Enter OTP from Client"),
+          ],
+        ),
+        content: Column(
+          mainAxisSize: MainAxisSize.min,
+          children: [
+            const Text(
+              "Ask the client for their OTP and enter it below to confirm job completion.",
+              style: TextStyle(color: Colors.black54, height: 1.5),
+            ),
+            const SizedBox(height: 20),
+            TextField(
+              controller: otpController,
+              keyboardType: TextInputType.number,
+              maxLength: 4,
+              textAlign: TextAlign.center,
+              style: const TextStyle(fontSize: 28, fontWeight: FontWeight.bold, letterSpacing: 10),
+              decoration: InputDecoration(
+                hintText: "----",
+                counterText: "",
+                border: OutlineInputBorder(borderRadius: BorderRadius.circular(15)),
+                focusedBorder: OutlineInputBorder(
+                  borderRadius: BorderRadius.circular(15),
+                  borderSide: const BorderSide(color: Colors.green, width: 2),
+                ),
+              ),
+            ),
+          ],
+        ),
         actions: [
           TextButton(
-            onPressed: () => Navigator.pop(context, false), 
-            child: const Text("No", style: TextStyle(color: Colors.black))
+            onPressed: () => Navigator.pop(ctx, false),
+            child: const Text("Cancel", style: TextStyle(color: Colors.grey)),
           ),
-          TextButton(
-            onPressed: () => Navigator.pop(context, true), 
-            child: const Text("Yes, Complete", style: TextStyle(color: Colors.green, fontWeight: FontWeight.bold))
+          ElevatedButton(
+            style: ElevatedButton.styleFrom(
+              backgroundColor: Colors.green,
+              shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(10)),
+            ),
+            onPressed: () => Navigator.pop(ctx, true),
+            child: const Text("Verify & Complete", style: TextStyle(color: Colors.white)),
           ),
         ],
       ),
-    ) ?? false;
+    );
 
-    if (confirm) {
-      await FirebaseFirestore.instance.collection('bookings').doc(widget.bookingId).update({
-        'status': 'Completed'
-      });
+    if (verified != true) return;
+
+    // Step 3: Verify OTP
+    final enteredOtp = otpController.text.trim();
+    if (enteredOtp != otp) {
       if (mounted) {
-        Navigator.pop(context);
         ScaffoldMessenger.of(context).showSnackBar(const SnackBar(
-          content: Text("Job Marked as Completed!"),
-          backgroundColor: Colors.green,
+          content: Text("❌ Invalid OTP. Please ask the client again."),
+          backgroundColor: Colors.redAccent,
         ));
       }
+      return;
+    }
+
+    // Step 4: Mark as Completed
+    await FirebaseFirestore.instance.collection('bookings').doc(widget.bookingId).update({
+      'status': 'completed',
+      'completionOtp': FieldValue.delete(),
+      'completedAt': FieldValue.serverTimestamp(),
+    });
+
+    if (mounted) {
+      Navigator.pop(context);
+      ScaffoldMessenger.of(context).showSnackBar(const SnackBar(
+        content: Text("✅ Job Completed Successfully!"),
+        backgroundColor: Colors.green,
+      ));
     }
   }
 
