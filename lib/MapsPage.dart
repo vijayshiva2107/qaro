@@ -24,7 +24,7 @@ class _MapsPageState extends State<MapsPage> {
   final TextEditingController _searchController = TextEditingController();
   final User? user = FirebaseAuth.instance.currentUser;
   // 🔥 Replace with your API Key
-  final String googleApiKey = "AIzaSyAOVYRIgupAurZup5y1PRh8Ismb1A3lLao";
+  final String googleApiKey = "AIzaSyAv0t-9OyNyLeu6TuCXAfdVMnMdpY2P5So";
 
   @override
   void initState() {
